@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tele-dep-con
-        image: 313826143473.dkr.ecr.us-west-2.amazonaws.com/telematichub-repo:latest
+        image: 313826143473.dkr.ecr.us-west-2.amazonaws.com/telematichub-repo:$var
         imagePullPolicy: Always
         ports:
         - containerPort: 80
